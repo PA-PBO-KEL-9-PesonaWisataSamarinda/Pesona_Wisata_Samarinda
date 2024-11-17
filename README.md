@@ -42,21 +42,27 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
    
 ## 📌 Flowchart
 1.	Tampilan Pengguna
-     ![Cuplikan layar 2024-11-17 093356](https://github.com/user-attachments/assets/fb7eda75-7d0f-4e03-8eee-0c5a56b9ef2f)
+
+  	 ![Cuplikan layar 2024-11-17 093356](https://github.com/user-attachments/assets/fb7eda75-7d0f-4e03-8eee-0c5a56b9ef2f)
 
 2.	Register Pengguna
-    ![Cuplikan layar 2024-11-17 093534](https://github.com/user-attachments/assets/586e9030-d348-4aae-afff-1feb6de384d6)
+
+  	 ![Cuplikan layar 2024-11-17 093534](https://github.com/user-attachments/assets/586e9030-d348-4aae-afff-1feb6de384d6)
 
 3.	Login Admin dan Pengunjung
-     ![Cuplikan layar 2024-11-17 093649](https://github.com/user-attachments/assets/82a6dde4-1065-4e0b-b54c-e13e52df599e)
+
+  	 ![Cuplikan layar 2024-11-17 093649](https://github.com/user-attachments/assets/82a6dde4-1065-4e0b-b54c-e13e52df599e)
 
 4.	Menu Admin
-     ![Cuplikan layar 2024-11-17 093739](https://github.com/user-attachments/assets/bbc664a7-ce97-4aea-9f8d-2c0c1d6afd17)
+
+  	  ![Cuplikan layar 2024-11-17 093739](https://github.com/user-attachments/assets/bbc664a7-ce97-4aea-9f8d-2c0c1d6afd17)
 
 5.	Menu CRUD Admin
-     ![Cuplikan layar 2024-11-17 093915](https://github.com/user-attachments/assets/d2c6c074-0fa3-4fdd-8580-5ca563ee6249)
+
+  	  ![Cuplikan layar 2024-11-17 093915](https://github.com/user-attachments/assets/d2c6c074-0fa3-4fdd-8580-5ca563ee6249)
 
 6.	Menu Pengguna
+  
     ![Cuplikan layar 2024-11-17 094017](https://github.com/user-attachments/assets/1237d096-b7f0-4a47-b9ed-8f377a290ed5)
 
 7.	Menu pengguna untuk membuat ulasan dan rating 
