@@ -1,9 +1,10 @@
 # Program Aplikasi Pesona Wisata Samarinda
 ### Anggota Kelompok 9 A1
 ---
-### Nyoman Arini Trirahayu          (2309116002)            ### Aidhil Saputra                  (2309116014)
-### Diva Tri Andini                 (2309116011)            ### Muhammad Hisyam Nugroho         (2309116020)
-
+### Nyoman Arini Trirahayu          (2309116002)
+### Diva Tri Andini                 (2309116011)  
+### Aidhil Saputra                  (2309116014)
+### Muhammad Hisyam Nugroho         (2309116020)
 ---
 ## 📌 Deskripsi Project
 Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java yang dirancang untuk memudahkan pengelolaan data destinasi wisata di Samarinda. Aplikasi ini bertujuan untuk membantu admin dalam mencatat, memperbarui, dan menghapus informasi destinasi, serta memfasilitasi wisatawan untuk mencari dan mengakses informasi wisata dengan lebih mudah. Dengan memanfaatkan teknologi seperti sorting (penyortiran) dan searching (pencarian), aplikasi ini mendukung promosi wisata lokal dan memberikan pengalaman pengguna yang efisien. Aplikasi ini dibuat untuk dua jenis pengguna utama, yaitu Admin dan Pengunjung, dengan fitur dan akses yang berbeda sesuai peran masing-masing. Admin bertugas mengelola data destinasi wisata, sedangkan pengunjung dapat mengeksplorasi destinasi, memberikan rating, dan menulis ulasan.
