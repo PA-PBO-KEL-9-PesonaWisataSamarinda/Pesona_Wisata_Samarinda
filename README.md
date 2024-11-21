@@ -116,6 +116,9 @@ Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pen
    - Class **MenuPengunjung** berfungsi sebagai halaman untuk melihat ulasan/rating destinasi tertentu dan memungkinkan pengunjung untuk memberikan ulasan dan rating baru.
    
 6. Libraries
+   - **mysql-connector-java-8.0.30.jar**: Library ini digunakan untuk menghubungkan aplikasi Java dengan database MySQL. Pada program digunakan untuk operasi CRUD (Create, Read, Update, Delete) seperti menambahkan, menghapus, memperbarui, dan membaca data dari database.
+   - **Absolute Layout - AbsoluteLayout.jar**: Library ini digunakan untuk mengatur tata letak (layout) komponen pada JFrame atau JPanel secara manual berdasarkan koordinat absolut.
+   - **JDK 23 (Default)**: Digunakan untuk menulis, menjalankan, dan mengompilasi kode Java dan memberikan akses ke API standar Java, seperti koleksi, koneksi database (JDBC), antarmuka grafis (Swing), dan lainnya.
 
 ## 📌 Panduan Pengunaan Program
 
