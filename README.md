@@ -96,7 +96,7 @@ Class **RatingUlasanController** bertanggung jawab untuk mengelola fitur yang te
    - readAllRatingUlasan: Membaca seluruh data ulasan dari database dan mengembalikan data dalam bentuk list objek RatingUlasanModel.
    - loadUlasanToTable: Menampilkan data ulasan terkait destinasi tertentu ke dalam tabel (JTable) dan memastikan tabel kosong jika data tidak ditemukan.
 
-     Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pengguna, registrasi, dan session management.
+Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pengguna, registrasi, dan session management.
    - login: Mengecek kredensial pengguna (username dan password) dan memastikan peran pengguna (admin atau pengunjung) dan memuat data pengguna ke dalam session.
    - registerPengunjung: Menambahkan pengguna baru ke dalam database dan memastikan data pengguna valid sebelum menyimpan.
    - updateJumlahReview: Memperbarui jumlah ulasan (jumlah_review) pada tabel pengunjung berdasarkan data dari tabel rating_dan_ulasan.
