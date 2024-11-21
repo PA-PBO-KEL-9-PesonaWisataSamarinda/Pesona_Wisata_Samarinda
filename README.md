@@ -44,38 +44,38 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
 ## 📌 Flowchart
 1.	Tampilan Pengguna
 
-![image](https://github.com/user-attachments/assets/f422085e-7b17-4bcd-ab3b-dfef98db5872)
+   ![image](https://github.com/user-attachments/assets/f422085e-7b17-4bcd-ab3b-dfef98db5872)
 
 2.	Registrasi Pengguna
 
-![image](https://github.com/user-attachments/assets/2fc02a1b-fd59-4124-bf10-20de4d585647)
+   ![image](https://github.com/user-attachments/assets/2fc02a1b-fd59-4124-bf10-20de4d585647)
 
 3.	Login Admin dan Pengunjung
 
-![image](https://github.com/user-attachments/assets/42f8a14e-0805-4710-912d-b731489615f0)
+   ![image](https://github.com/user-attachments/assets/42f8a14e-0805-4710-912d-b731489615f0)
 
 4.	Home Admin
 
-![image](https://github.com/user-attachments/assets/3cacd107-ea66-454b-b2c0-49254fe6cf53)
+   ![image](https://github.com/user-attachments/assets/3cacd107-ea66-454b-b2c0-49254fe6cf53)
 
 5.	Menu Admin
 
-![image](https://github.com/user-attachments/assets/414ae019-0849-4762-a39e-dd707ff6062e)
+   ![image](https://github.com/user-attachments/assets/414ae019-0849-4762-a39e-dd707ff6062e)
 
 6.	Home Pengunjung
    
-![image](https://github.com/user-attachments/assets/789bf694-dab8-4159-aafb-ac92bbda22f9)
+   ![image](https://github.com/user-attachments/assets/789bf694-dab8-4159-aafb-ac92bbda22f9)
 
 ## 📌 ERD
 
-![image](https://github.com/user-attachments/assets/fab17ab4-4d85-4ef6-9438-801bf6fa7e7d)
+   ![image](https://github.com/user-attachments/assets/fab17ab4-4d85-4ef6-9438-801bf6fa7e7d)
 
 ## 📌 Use Case Diagram
-![Cuplikan layar 2024-11-17 100156](https://github.com/user-attachments/assets/9d3d11fe-1a04-4281-b116-8a6a239b1bad)
+   ![Cuplikan layar 2024-11-17 100156](https://github.com/user-attachments/assets/9d3d11fe-1a04-4281-b116-8a6a239b1bad)
 
 
 ## 📌 Struktur Project
-![image](https://github.com/user-attachments/assets/80f2c360-1a8e-4e27-a461-57c48166be20)
+   ![image](https://github.com/user-attachments/assets/80f2c360-1a8e-4e27-a461-57c48166be20)
 1. Package Controller
 
 Class **DestinasiController** bertanggung jawab untuk mengelola data destinasi wisata, dimana memiliki metode-metode sebagai berikut.
@@ -119,7 +119,7 @@ Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pen
 
 ## 📌 Panduan Pengunaan Program
 
-**Tampilan awal aplikasi (User)**
+#**Tampilan awal aplikasi (User)**
 
  ![image](https://github.com/user-attachments/assets/735d03ba-e7ed-4632-a394-3ef1091fb25b)
 
@@ -141,9 +141,9 @@ Gambar 2.3 Tampilan Registrasi
 
 Dan jika user sudah tidak ingin melakukan interaksi lagi user dapat klik tombol Keluar untuk setiap GUI nya.
 
-**Tampilan Admin**
+#**Tampilan Admin**
 
-Jika admin ingin mengelola destinasi maka admin harus melakukan login terlebih dulu dengan catatan admin hanya dapat melakukan login, dan tidak dapat melakukan registrasi akun, jika admin berhasil login maka akan menampilkan output “Login berhasil sebagai Admin!” seperti pada gambar dibawah kiri, dan jika admin gagal login maka akan menampilkan output  “Login Gagal! username atau password salah” seperti pada gambar dibawah kanan.
+Jika admin ingin mengelola destinasi maka admin harus melakukan login terlebih dulu dengan catatan admin hanya dapat melakukan login, dan tidak dapat melakukan registrasi akun, jika admin berhasil login maka akan menampilkan output “Login berhasil!” dan akan menampilan role serta data admin, seperti pada gambar dibawah kiri, dan jika admin gagal login maka akan menampilkan output  “Login Gagal! username atau password salah” seperti pada gambar dibawah kanan.
 
 ![image](https://github.com/user-attachments/assets/d22edcac-5259-4830-b93b-941999a7e898)
 ![image](https://github.com/user-attachments/assets/3392e45e-bf7e-4308-8c67-77318a5955d9)
@@ -160,7 +160,7 @@ Pada tampilan ini admin dapat mengelola data(CRUD), melihat data, segarkan data,
 
 ![image](https://github.com/user-attachments/assets/e636ff9a-4dc1-4d09-93d1-eac52fc05ca6)
 
-    Gambar 2.6 Tampilan Kelola Data Admin(CRUD)
+Gambar 2.6 Tampilan Kelola Data Admin(CRUD)
     
 Jika admin ingin menambahkan data tempat wisata baru (CREATE), maka admin dapat mengisi data yang sudah di sediakan seperti nama destinasi, jam operasional, deskripsi, lokasi, fasilitas dan biaya masuk. Pastikan untuk mengisi semua data destinasi dan data tidak boleh kosong,
 
@@ -184,7 +184,7 @@ Gambar 2.9 Segarkan Data Setelah Tambah Destinasi
 
 Gambar 2.100 Lihat Destinasi
 
-Dan jika data tempat wisata tersebut ada yang informasi terbaru maka admin dapat melakukan pembaruan data di tempat wisata tersebut, admin dapat klik tempat wisata mana yang ingin diperbarui datanya selanjutnya kolom tersebut akan otomati diisi dengan data yang lama, disini admin dapat mengubah data yang sesuai dengan informasi terbaru saat ini. 
+Dan jika data tempat wisata tersebut ada yang informasi terbaru maka admin dapat melakukan pembaruan data di tempat wisata tersebut, admin dapat klik tempat wisata mana yang ingin diperbarui datanya selanjutnya kolom tersebut akan otomatis diisi dengan data yang lama, disini admin dapat mengubah data yang sesuai dengan informasi terbaru saat ini tetapi untuk nama destinasi tidak dapat di Edit. 
 
 ![image](https://github.com/user-attachments/assets/01eeab52-dc61-4012-b931-b93f80355481)
 
@@ -275,9 +275,9 @@ Selanjutnya, maka admin dapat melihat rating dan ulasannya tetapi di sini admin 
 Gambar 2.25 Tampilan Rating dan Ulasan Admin
 
 
-**Tampilan Pengunjung**
+#**Tampilan Pengunjung**
 
-Jika pengunjung ingin memberikan rating dan ulasan pada tempat wisata maka pengunjung dapat melakukan login atau registrasi akun terlebih dulu. Untuk tampilan login pengunjung bisa memasukan username dan password yang sudah terdaftar jika berhasil login maka akan menampilkan output “Login berhasil sebagai Pengunjung!” seperti pada gambar dibawah kiri, dan jika pengujung belum punya akun atau gagal melakukan login maka akan menampilkan output “Login Gagal! Username atau Password salah.” seperti pada gambar dibawah kanan.
+Jika pengunjung ingin memberikan rating dan ulasan pada tempat wisata maka pengunjung dapat melakukan login atau registrasi akun terlebih dulu. Untuk tampilan login pengunjung bisa memasukan username dan password yang sudah terdaftar jika berhasil login maka akan menampilkan output “Login berhasil”dan akan menampilan role serta data pengunjung, seperti pada gambar dibawah kiri, dan jika pengujung belum punya akun atau gagal melakukan login maka akan menampilkan output “Login Gagal! Username atau Password salah.” seperti pada gambar dibawah kanan.
 
 ![image](https://github.com/user-attachments/assets/6d26f9df-67e5-43c3-ac49-b960c76d6e3e)
 ![image](https://github.com/user-attachments/assets/642f6a49-9e88-4db0-af2f-53f3889e0f23)
@@ -342,7 +342,6 @@ Gambar 2.36 Tampilan Rating dan Ulasan Pengunjung
 Jika pengunjung ingin memberikan rating dan ulasan pengunjung dapat memilih tempat wisata yang akan di berikan rating dan ulasan setelah klik pengguna diminta untuk mengisi ulasan dan menginputkan rating nilai 1-5 mengenai tempat tersebut. Jika sudah terisi semua klik “Buat Rating dan Ulasan”, seperti gambar dibawah.
   
 ![image](https://github.com/user-attachments/assets/884faccc-7ea4-41c3-ad76-6d0f339a2040)
-
 ![image](https://github.com/user-attachments/assets/6a56aaa8-fa23-4f6d-8311-944bc7a412b2)
 
 Gambar 2.37 Tambah Rating dan Ulasan Pengunjung
