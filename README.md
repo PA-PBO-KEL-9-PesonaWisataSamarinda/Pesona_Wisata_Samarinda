@@ -29,8 +29,7 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
    - Menampilkan destinasi berdasarkan:
      - harga termurah,
      - harga termahal,
-     - rating tertinggi,
-     - abjad (asc))
+     - abjad (asc)
 
 5. **Rating dan Ulasan**  
    - **Pengunjung** dapat memberikan rating (1-5) dan ulasan terhadap destinasi.  
