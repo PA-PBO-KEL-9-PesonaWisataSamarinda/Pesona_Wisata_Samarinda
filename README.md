@@ -99,6 +99,7 @@ Class **RatingUlasanController** bertanggung jawab untuk mengelola fitur yang te
 Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pengguna, registrasi, dan session management.
    - login: Mengecek kredensial pengguna (username dan password) dan memastikan peran pengguna (admin atau pengunjung) dan memuat data pengguna ke dalam session.
    - registerPengunjung: Menambahkan pengguna baru ke dalam database dan memastikan data pengguna valid sebelum menyimpan.
+   - updateJumlahReview: Memperbarui jumlah ulasan (jumlah_review) pada tabel pengunjung berdasarkan data dari tabel rating_dan_ulasan.
    - getCurrentUser dan setCurrentUser: Mengelola session pengguna yang sedang login saat ini.
    - clearSession: Membersihkan session pengguna saat logout.
 
