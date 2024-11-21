@@ -119,7 +119,7 @@ Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pen
 
 Gambar 2.1 Tampilan Awal Aplikasi
 
-	Pada tampilan menu utama admin atau pengunjung (user) dapat login akun terlebih dulu dengan mengklik Masu, dan untuk tampilan login admin dan pengunjung (user) disatukan ditempat login yang sama, admin atau pengunjung dapat memasukan username dan password mereka, dan program akan otomnatis melakukan pengecekan apakah user tersebut login dengan role admin atau pengujung. Seperti pada gambar dibawah kanan login sebagai admin dan dibawah kiri login sebagai pengunjung.
+	"Pada tampilan menu utama admin atau pengunjung (user) dapat login akun terlebih dulu dengan mengklik Masu, dan untuk tampilan login admin dan pengunjung (user) disatukan ditempat login yang sama, admin atau pengunjung dapat memasukan username dan password mereka, dan program akan otomnatis melakukan pengecekan apakah user tersebut login dengan role admin atau pengujung. Seperti pada gambar dibawah kanan login sebagai admin dan dibawah kiri login sebagai pengunjung."
 
 ![image](https://github.com/user-attachments/assets/fe4a5cb1-bb37-4d12-b7d6-99ec667317a0)
 ![image](https://github.com/user-attachments/assets/1782c90c-b61b-4d13-b509-6d6b8d79c7cf)
