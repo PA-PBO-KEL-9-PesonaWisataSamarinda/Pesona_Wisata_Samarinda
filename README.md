@@ -97,10 +97,10 @@ Class **RatingUlasanController** bertanggung jawab untuk mengelola fitur yang te
    - loadUlasanToTable: Menampilkan data ulasan terkait destinasi tertentu ke dalam tabel (JTable) dan memastikan tabel kosong jika data tidak ditemukan.
 
 Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pengguna, registrasi, dan session management.
-     - login: Mengecek kredensial pengguna (username dan password) dan memastikan peran pengguna (admin atau pengunjung) dan memuat data pengguna ke dalam session.
-     - registerPengunjung: Menambahkan pengguna baru ke dalam database dan memastikan data pengguna valid sebelum menyimpan.
-     - getCurrentUser dan setCurrentUser: Mengelola session pengguna yang sedang login saat ini.
-     - clearSession: Membersihkan session pengguna saat logout.
+   - login: Mengecek kredensial pengguna (username dan password) dan memastikan peran pengguna (admin atau pengunjung) dan memuat data pengguna ke dalam session.
+   - registerPengunjung: Menambahkan pengguna baru ke dalam database dan memastikan data pengguna valid sebelum menyimpan.
+   - getCurrentUser dan setCurrentUser: Mengelola session pengguna yang sedang login saat ini.
+   - clearSession: Membersihkan session pengguna saat logout.
 
 3. Package Model
    - Class **UserModel** merupakan kelas  induk (abstract) untuk semua jenis user. Metode utama class ini adalah memvalidasi kredensial login dan getters setters untuk atribut.
