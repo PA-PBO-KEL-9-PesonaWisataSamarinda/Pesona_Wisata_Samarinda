@@ -127,8 +127,8 @@ Gambar 2.1 Tampilan Awal Aplikasi
 
 Pada tampilan menu utama admin atau pengunjung (user) dapat login akun terlebih dulu dengan mengklik Masu, dan untuk tampilan login admin dan pengunjung (user) disatukan ditempat login yang sama, admin atau pengunjung dapat memasukan username dan password mereka, dan program akan otomnatis melakukan pengecekan apakah user tersebut login dengan role admin atau pengujung. Seperti pada gambar dibawah kanan login sebagai admin dan dibawah kiri login sebagai pengunjung.
 
-![image](https://github.com/user-attachments/assets/fe4a5cb1-bb37-4d12-b7d6-99ec667317a0)
-![image](https://github.com/user-attachments/assets/1782c90c-b61b-4d13-b509-6d6b8d79c7cf)
+![image](https://github.com/user-attachments/assets/9c8fc279-cd05-441d-a8b1-c986180e83fc)
+![image](https://github.com/user-attachments/assets/40bb4a7d-5aba-4094-905c-0c6ba9a97d6e)
 
 Gambar 2.2 Tampilan Login
 
@@ -145,7 +145,7 @@ Dan jika user sudah tidak ingin melakukan interaksi lagi user dapat klik tombol 
 
 Jika admin ingin mengelola destinasi maka admin harus melakukan login terlebih dulu dengan catatan admin hanya dapat melakukan login, dan tidak dapat melakukan registrasi akun, jika admin berhasil login maka akan menampilkan output “Login berhasil sebagai Admin!” seperti pada gambar dibawah kiri, dan jika admin gagal login maka akan menampilkan output  “Login Gagal! username atau password salah” seperti pada gambar dibawah kanan.
 
-![image](https://github.com/user-attachments/assets/5e941e17-c431-4213-aef1-96567c9d1f28)
+![image](https://github.com/user-attachments/assets/d22edcac-5259-4830-b93b-941999a7e898)
 ![image](https://github.com/user-attachments/assets/3392e45e-bf7e-4308-8c67-77318a5955d9)
 
 Gambar 2.4 Login Admin
@@ -279,8 +279,7 @@ Gambar 2.25 Tampilan Rating dan Ulasan Admin
 
 Jika pengunjung ingin memberikan rating dan ulasan pada tempat wisata maka pengunjung dapat melakukan login atau registrasi akun terlebih dulu. Untuk tampilan login pengunjung bisa memasukan username dan password yang sudah terdaftar jika berhasil login maka akan menampilkan output “Login berhasil sebagai Pengunjung!” seperti pada gambar dibawah kiri, dan jika pengujung belum punya akun atau gagal melakukan login maka akan menampilkan output “Login Gagal! Username atau Password salah.” seperti pada gambar dibawah kanan.
 
-![image](https://github.com/user-attachments/assets/ec2c5b24-1f0e-4f82-9b30-85b1a1af3f7b)
-
+![image](https://github.com/user-attachments/assets/6d26f9df-67e5-43c3-ac49-b960c76d6e3e)
 ![image](https://github.com/user-attachments/assets/642f6a49-9e88-4db0-af2f-53f3889e0f23)
 
 Gambar 2.26 Login Pengunjung
@@ -288,8 +287,8 @@ Gambar 2.26 Login Pengunjung
 Untuk tampilan registrasi akun pengunjung, pengunjung diminta untuk memasukan username, password, email dan nomer telepon. Data wajib di isi semua dan tidak boleh kosong. Isi data sesuai dengan kolom seperti pada gambar dibawah kiri, jika berhasil registrasi akun maka akan menampilkan output “Registrasi Berhasil! Silahkan Login.” seperti pada gambar dibawah kanan.
 
 ![image](https://github.com/user-attachments/assets/973bb340-271e-4489-9589-d3f4d5148e07)
+![image](https://github.com/user-attachments/assets/e5dbc1fc-084b-438c-a923-41dc18885205)
 
-![image](https://github.com/user-attachments/assets/aeb14fd3-688d-4646-85ec-bbd0c4c587b2)
 
 Gambar 2.27 Registrasi Pengunjung
 
