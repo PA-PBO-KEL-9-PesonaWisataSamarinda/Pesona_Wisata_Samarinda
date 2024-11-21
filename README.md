@@ -103,6 +103,8 @@ Gambar 2. 12 Tampilan Login
 
 Gambar 2. 13 Tampilan Registrasi
 
+Dan jika user sudah tidak ingin melakukan interaksi lagi user dapat klik tombol Keluar untuk setiap GUI nya.
+
 **Tampilan Admin**
 Jika admin ingin mengelola destinasi maka admin harus melakukan login terlebih dulu dengan catatan admin hanya dapat melakukan login, dan tidak dapat melakukan registrasi akun, jika admin berhasil login maka akan menampilkan output “Login berhasil sebagai Admin!” seperti pada gambar dibawah kiri, dan jika admin gagal login maka akan menampilkan output  “Login Gagal! username atau password salah” seperti pada gambar dibawah kanan.
 
