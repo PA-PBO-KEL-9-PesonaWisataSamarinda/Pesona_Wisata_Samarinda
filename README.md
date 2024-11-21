@@ -126,7 +126,7 @@ Gambar 2.1 Tampilan Awal Aplikasi
 
 Gambar 2.2 Tampilan Login
 
-	Selain login dimenu utama juga ad pilihan regitrasi jika pengunjung belum memiliki akun dengan memasukan username, password, email, dan no telepon. Mengapa pengunjung?, karena diprogram ini yang bisa melakukan registrasi akun hanya pengunjung saja, seperti gambar dibawah.
+"Selain login dimenu utama juga ad pilihan regitrasi jika pengunjung belum memiliki akun dengan memasukan username, password, email, dan no telepon. Mengapa pengunjung?, karena diprogram ini yang bisa melakukan registrasi akun hanya pengunjung saja, seperti gambar dibawah."
 
 ![image](https://github.com/user-attachments/assets/f69c9829-cf31-44b1-8566-43ed790f890c)
 ![image](https://github.com/user-attachments/assets/1a8e7929-ad3d-4778-86b8-3fd4a3205523)
