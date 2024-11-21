@@ -136,6 +136,7 @@ Gambar 2.3 Tampilan Registrasi
 Dan jika user sudah tidak ingin melakukan interaksi lagi user dapat klik tombol Keluar untuk setiap GUI nya.
 
 **Tampilan Admin**
+
 Jika admin ingin mengelola destinasi maka admin harus melakukan login terlebih dulu dengan catatan admin hanya dapat melakukan login, dan tidak dapat melakukan registrasi akun, jika admin berhasil login maka akan menampilkan output “Login berhasil sebagai Admin!” seperti pada gambar dibawah kiri, dan jika admin gagal login maka akan menampilkan output  “Login Gagal! username atau password salah” seperti pada gambar dibawah kanan.
 
 ![image](https://github.com/user-attachments/assets/5e941e17-c431-4213-aef1-96567c9d1f28)
@@ -269,6 +270,7 @@ Gambar 2.25 Tampilan Rating dan Ulasan Admin
 
 
 **Tampilan Pengunjung**
+
 Jika pengunjung ingin memberikan rating dan ulasan pada tempat wisata maka pengunjung dapat melakukan login atau registrasi akun terlebih dulu. Untuk tampilan login pengunjung bisa memasukan username dan password yang sudah terdaftar jika berhasil login maka akan menampilkan output “Login berhasil sebagai Pengunjung!” seperti pada gambar dibawah kiri, dan jika pengujung belum punya akun atau gagal melakukan login maka akan menampilkan output “Login Gagal! Username atau Password salah.” seperti pada gambar dibawah kanan.
 
 ![image](https://github.com/user-attachments/assets/ec2c5b24-1f0e-4f82-9b30-85b1a1af3f7b)
