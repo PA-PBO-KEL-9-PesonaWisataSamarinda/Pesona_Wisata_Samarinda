@@ -82,13 +82,13 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
 ## 📌 Struktur Project
 ![image](https://github.com/user-attachments/assets/80f2c360-1a8e-4e27-a461-57c48166be20)
 1. Package Controller
-Class **DestinasiController** bertanggung jawab untuk mengelola data destinasi wisata, dimana memiliki metode-metode sebagai berikut.
-   - loadDataToTable: Membaca semua data destinasi dari database dan menampilkan di JTable.
-   - tambah: Menambahkan destinasi baru ke dalam database.
-   - update: Memperbarui data destinasi berdasarkan nama destinasi.
-   - Menghapus data destinasi tertentu berdasarkan nama destinasi.
-   - cariDestinasiWisata: Mencari destinasi berdasarkan nama yang mirip (menggunakan wildcard LIKE).
-   - sortDestinasi: Mengurutkan destinasi berdasarkan pilihan, seperti harga tertinggi, harga terendah, atau abjad.
+	Class **DestinasiController** bertanggung jawab untuk mengelola data destinasi wisata, dimana memiliki metode-metode sebagai berikut.
+	   - loadDataToTable: Membaca semua data destinasi dari database dan menampilkan di JTable.
+	   - tambah: Menambahkan destinasi baru ke dalam database.
+	   - update: Memperbarui data destinasi berdasarkan nama destinasi.
+	   - Menghapus data destinasi tertentu berdasarkan nama destinasi.
+	   - cariDestinasiWisata: Mencari destinasi berdasarkan nama yang mirip (menggunakan wildcard LIKE).
+	   - sortDestinasi: Mengurutkan destinasi berdasarkan pilihan, seperti harga tertinggi, harga terendah, atau abjad.
 
 Class **RatingUlasanController** bertanggung jawab untuk mengelola fitur yang terkait dengan rating dan ulasan destinasi wisata.
    - createRatingUlasan: Menambahkan rating dan ulasan baru ke database berdasarkan input user dan memastikan destinasi yang diberikan ulasan benar-benar ada sebelum melakukan operasi penyimpanan.
