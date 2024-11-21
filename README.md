@@ -82,7 +82,7 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
 ## 📌 Struktur Project
 ![image](https://github.com/user-attachments/assets/80f2c360-1a8e-4e27-a461-57c48166be20)
 1. Package Controller
-   Class **DestinasiController** bertanggung jawab untuk mengelola data destinasi wisata, dimana memiliki metode-metode sebagai berikut.
+Class **DestinasiController** bertanggung jawab untuk mengelola data destinasi wisata, dimana memiliki metode-metode sebagai berikut.
    - loadDataToTable: Membaca semua data destinasi dari database dan menampilkan di JTable.
    - tambah: Menambahkan destinasi baru ke dalam database.
    - update: Memperbarui data destinasi berdasarkan nama destinasi.
@@ -90,46 +90,46 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
    - cariDestinasiWisata: Mencari destinasi berdasarkan nama yang mirip (menggunakan wildcard LIKE).
    - sortDestinasi: Mengurutkan destinasi berdasarkan pilihan, seperti harga tertinggi, harga terendah, atau abjad.
 
-   Class **RatingUlasanController** bertanggung jawab untuk mengelola fitur yang terkait dengan rating dan ulasan destinasi wisata.
+Class **RatingUlasanController** bertanggung jawab untuk mengelola fitur yang terkait dengan rating dan ulasan destinasi wisata.
    - createRatingUlasan: Menambahkan rating dan ulasan baru ke database berdasarkan input user dan memastikan destinasi yang diberikan ulasan benar-benar ada sebelum melakukan operasi penyimpanan.
    - readAllRatingUlasan: Membaca seluruh data ulasan dari database dan mengembalikan data dalam bentuk list objek RatingUlasanModel.
    - loadUlasanToTable: Menampilkan data ulasan terkait destinasi tertentu ke dalam tabel (JTable) dan memastikan tabel kosong jika data tidak ditemukan.
 
-     Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pengguna, registrasi, dan session management.
+Class **UserController** bertanggung jawab untuk mengelola fitur autentikasi pengguna, registrasi, dan session management.
      - login: Mengecek kredensial pengguna (username dan password) dan memastikan peran pengguna (admin atau pengunjung) dan memuat data pengguna ke dalam session.
      - registerPengunjung: Menambahkan pengguna baru ke dalam database dan memastikan data pengguna valid sebelum menyimpan.
      - getCurrentUser dan setCurrentUser: Mengelola session pengguna yang sedang login saat ini.
      - clearSession: Membersihkan session pengguna saat logout.
 
-2. Package Model
-   Class **UserModel** merupakan kelas  induk (abstract) untuk semua jenis user. Metode utama class ini adalah memvalidasi kredensial login dan getters setters untuk atribut.
+3. Package Model
+Class **UserModel** merupakan kelas  induk (abstract) untuk semua jenis user. Metode utama class ini adalah memvalidasi kredensial login dan getters setters untuk atribut.
 
-   Class **Admin** merupakan turunan dari UserModel dan memiliki metode utama getter dan setter untuk atribut status yang menyimpan informasi status admin.
+Class **Admin** merupakan turunan dari UserModel dan memiliki metode utama getter dan setter untuk atribut status yang menyimpan informasi status admin.
 
-   Class **Pengunjung** merupakan turunan dari UserModel dan memiiki metode utama getter dan setter untuk atribut jumlah_review yang merepresentasikan jumlah ulasan yang telah diberikan pengunjung.
+Class **Pengunjung** merupakan turunan dari UserModel dan memiiki metode utama getter dan setter untuk atribut jumlah_review yang merepresentasikan jumlah ulasan yang telah diberikan pengunjung.
 
-   Class **DatabaseModel** bertanggung jawab untuk mengelola koneksi ke database aplikasi dan memiliki metode utama connect untuk membuka koneksi ke database dan disconnect untuk menutup koneksi ke database.
+Class **DatabaseModel** bertanggung jawab untuk mengelola koneksi ke database aplikasi dan memiliki metode utama connect untuk membuka koneksi ke database dan disconnect untuk menutup koneksi ke database.
 
-   Class **RatingUlasanModel** bertanggung jawab untuk merepresentasikan data ulasan pengguna terhadap destinasi.
+Class **RatingUlasanModel** bertanggung jawab untuk merepresentasikan data ulasan pengguna terhadap destinasi.
 
-   Class **TableModel** bertanggung jawab untuk menambahkan data destinasi wisata ke dalam tabel GUI (Swing JTable).
+Class **TableModel** bertanggung jawab untuk menambahkan data destinasi wisata ke dalam tabel GUI (Swing JTable).
    
-3. Package View
-   Class **MainHome** berfungsi sebagai halaman utama (main menu) aplikasi dan menyediakan navigasi awal untuk pengguna ke halaman login atau registrasi.
+5. Package View
+Class **MainHome** berfungsi sebagai halaman utama (main menu) aplikasi dan menyediakan navigasi awal untuk pengguna ke halaman login atau registrasi.
 
-   Class **Login** berfungsi sebagai halaman untuk proses login pengguna dan memvalidasi kredensial pengguna melalui UserController.
+Class **Login** berfungsi sebagai halaman untuk proses login pengguna dan memvalidasi kredensial pengguna melalui UserController.
 
-   Class **Registrasi** berfungsi sebagai halaman untuk proses pendaftaran akun baru untuk pengguna berperan sebagai pengunjung dan menggunakan logika dari UserController untuk menyimpan data ke database.
+Class **Registrasi** berfungsi sebagai halaman untuk proses pendaftaran akun baru untuk pengguna berperan sebagai pengunjung dan menggunakan logika dari UserController untuk menyimpan data ke database.
 
-   Class **HomeAdmin** berfungsi sebagai halaman utama untuk pengguna dengan peran admin dan memungkinkan admin untuk melihat daftar destinasi wisata, mengelola data destinasi, dan melihat ulasan/rating.
+Class **HomeAdmin** berfungsi sebagai halaman utama untuk pengguna dengan peran admin dan memungkinkan admin untuk melihat daftar destinasi wisata, mengelola data destinasi, dan melihat ulasan/rating.
 
-   Class **MenuAdmin** berfungsi sebagai halaman untuk pengelolaan data destinasi wisata dan memungkinkan admin untuk menambahkan, mengubah, menghapus, atau memuat ulang data destinasi wisata.
+Class **MenuAdmin** berfungsi sebagai halaman untuk pengelolaan data destinasi wisata dan memungkinkan admin untuk menambahkan, mengubah, menghapus, atau memuat ulang data destinasi wisata.
 
-   Class **HomePengunjung** berfungsi sebagai halaman utama untuk pengguna dengan peran pengunjung dan menampilkan daftar destinasi wisata dan memungkinkan pengguna untuk melihat ulasan/rating destinasi tertentu.
+Class **HomePengunjung** berfungsi sebagai halaman utama untuk pengguna dengan peran pengunjung dan menampilkan daftar destinasi wisata dan memungkinkan pengguna untuk melihat ulasan/rating destinasi tertentu.
 
-   Class **MenuPengunjung** berfungsi sebagai halaman untuk melihat ulasan/rating destinasi tertentu dan memungkinkan pengunjung untuk memberikan ulasan dan rating baru.
+Class **MenuPengunjung** berfungsi sebagai halaman untuk melihat ulasan/rating destinasi tertentu dan memungkinkan pengunjung untuk memberikan ulasan dan rating baru.
    
-4. Libraries
+6. Libraries
 
 ## 📌 Panduan Pengunaan Program
 
