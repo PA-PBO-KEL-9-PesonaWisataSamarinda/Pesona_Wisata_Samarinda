@@ -71,7 +71,7 @@ Aplikasi Pengelola Tempat Wisata Samarinda adalah platform digital berbasis Java
    ![image](https://github.com/user-attachments/assets/fab17ab4-4d85-4ef6-9438-801bf6fa7e7d)
 
 ## 📌 Use Case Diagram
-   ![Cuplikan layar 2024-11-17 100156](https://github.com/user-attachments/assets/9d3d11fe-1a04-4281-b116-8a6a239b1bad)
+   ![Usecase_Kelompok  4 A1 drawio (2)](https://github.com/user-attachments/assets/f84682ab-2681-4cb4-aa57-5e92f9fc2d1a)
 
 
 ## 📌 Struktur Project
